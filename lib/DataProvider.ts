@@ -1,5 +1,6 @@
 import { BigNumber, Contract } from 'ethers';
 import * as fs from 'fs';
+import Koa from 'koa'
 import Web3 from 'web3';
 import { FtsoManager } from '../typechain-web3-v1/FtsoManager';
 import { FtsoRegistry } from '../typechain-web3-v1/FtsoRegistry';
