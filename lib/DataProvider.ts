@@ -478,6 +478,14 @@ class DataProvider {
 }
 
 
+const app = new Koa();
+
+app.use(async ctx => {
+  ctx.body = 'Healthy!';
+});
+
+app.listen(3000);
+
 const dataProvider = new DataProvider(conf);
 
 dataProvider.runDataProvider();
